@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retire in Spain — Step‑by‑Step Help</title>
+  <style>
+    :root { --primary:#0d6efd; --bg:#f5f7fb; --card:#ffffff; --text:#222; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: var(--bg); color: var(--text); }
+    header { background: var(--primary); color:#fff; padding:48px 16px; text-align:center; }
+    header h1 { margin:0 0 8px 0; font-size: 34px; }
+    header p { margin:0; font-size: 18px; opacity:.95; }
+    main { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin: 16px 0 24px; }
+    .card { background:var(--card); border-radius:12px; padding:16px; box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+    h2 { margin: 8px 0 12px; }
+    .form { padding: 20px; }
+    input, select, button { width:100%; padding:12px; margin-top:10px; border-radius:10px; border:1px solid #cfd6e4; font-size:16px; }
+    button { background:var(--primary); color:#fff; border:none; cursor:pointer; font-weight:600; }
+    button:hover { filter:brightness(0.95); }
+    footer { text-align:center; font-size:14px; padding:16px; color:#556; }
+    .small { font-size: 13px; color:#556; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Live in Spain without the paperwork pain</h1>
+    <p>Residency, healthcare, taxes — explained in your language. For Nordic & European retirees.</p>
+  </header>
+
+  <main>
+    <section class="grid">
+      <div class="card">
+        <h2>Step‑by‑step guides</h2>
+        <p>NIE/TIE, padrón, S1 healthcare, driving licence and taxes with clear steps, documents and links.</p>
+      </div>
+      <div class="card">
+        <h2>In your language</h2>
+        <p>English and Swedish to start. Norwegian, Danish, Finnish, German coming next.</p>
+      </div>
+      <div class="card">
+        <h2>Reminders & tips</h2>
+        <p>Email/WhatsApp reminders so you never miss an appointment or renewal.</p>
+      </div>
+    </section>
+
+    <section class="card form">
+      <h2>Join early access</h2>
+      <p class="small">Tell us where you live in Spain and we'll send you a tailored checklist.</p>
+
+      <!-- Formspree form -->
+      <form action="https://formspree.io/f/xzzvwgew" method="POST">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Your name" required>
+        
+        <label>Email</label>
+        <input type="email" name="email" placeholder="you@email.com" required>
+        
+        <label>Country of origin</label>
+        <select name="country" required>
+          <option value="">Select your country</option>
+          <option value="SE">Sweden</option>
+          <option value="NO">Norway</option>
+          <option value="DK">Denmark</option>
+          <option value="FI">Finland</option>
+          <option value="IS">Iceland</option>
+          <option value="GB">United Kingdom</option>
+          <option value="DE">Germany</option>
+          <option value="NL">Netherlands</option>
+          <option value="BE">Belgium</option>
+          <option value="FR">France</option>
+        </select>
+        
+        <label>City in Spain</label>
+        <input type="text" name="city" placeholder="e.g., Torrevieja or Marbella" required>
+        
+        <button type="submit">Get my free checklist</button>
+      </form>
+
+      <p class="small">This is an informational service, not legal advice. You can cancel anytime.</p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Retire in Spain Guide — All rights reserved
+  </footer>
+</body>
+</html>
